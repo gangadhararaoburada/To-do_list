@@ -73,10 +73,6 @@ The tasks are saved in 'tasks.json', which is automatically created.
 - 'todo.py': The main script to run the To-Do List Manager.
 - 'tasks.json': Automatically created to store tasks in a pretty-printed JSON format.
 
-## Requirements
-
-- Python 3.6 or higher (uses the standard library’s 'json' module).
-
 ## Troubleshooting
 
 - **File Permission Errors**: Ensure the script has write access to the directory to create 'tasks.json'.
