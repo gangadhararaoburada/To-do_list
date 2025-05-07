@@ -3,14 +3,15 @@
 import json
 import sys
 
-# Ensure Python 3.13 or later
-if sys.version_info <= (3, 13):
-    print("Error: This code requires Python 3.13 or later.")
-    sys.exit(1)
-
 # Print Python version and compatibility status
-print(f"Running on Python {sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}")
-print("This version is compatible and supported.")
+print(f"Running on Python [ {sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro} ]")
+if sys.version_info >= (3, 12):
+    print("     - This version is compatible and supported for the execution of the code.")
+else:
+    print("Error: ")
+    print(f"    - The version [ {sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro} ] is not compatible and not supported for the execution of the code.")
+    print("    - This code requires Python [ 3.12 ] or later versions.")
+    sys.exit(1)
     
 # Function to load tasks from a JSON file
 def load_tasks(filename):
