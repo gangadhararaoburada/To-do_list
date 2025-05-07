@@ -12,7 +12,7 @@ A simple command-line To-Do List Manager built with Python. Manage your tasks by
 
 ## Installation
 
-1. Ensure you have **Python 3.13** or higher installed.
+1. Ensure you have **Python 3.13** or later from [python.org](https://www.python.org/).
 2. Download the 'To-do_List_Manager.py' script.
 3. Place the script in a directory where you have write permissions (for creating 'tasks.json').
 
