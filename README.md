@@ -70,7 +70,7 @@ The tasks are saved in 'tasks.json', which is automatically created.
 
 ## File Structure
 
-- 'todo.py': The main script to run the To-Do List Manager.
+- 'To-do_List_Manager.py': The main script to run the To-Do List Manager.
 - 'tasks.json': Automatically created to store tasks in a pretty-printed JSON format.
 
 ## Troubleshooting
