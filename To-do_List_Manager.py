@@ -4,7 +4,7 @@ import json
 import sys
 
 # Ensure Python 3.13 or later
-if sys.version_info < (3, 13):
+if sys.version_info <= (3, 13):
     print("Error: This code requires Python 3.13 or later.")
     sys.exit(1)
 
